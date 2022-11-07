@@ -12,7 +12,7 @@ class GraphQlConfig implements GraphQlConfigInterface
     /**
      * @var ScopeConfigInterface
      */
-    private ScopeConfigInterface $scopeConfig;
+    private $scopeConfig;
 
     /**
      * @param ScopeConfigInterface $scopeConfig
