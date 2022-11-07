@@ -11,7 +11,7 @@ use GraphQL\Validator\Rules\QueryComplexity;
 
 class QueryComplexityLimiterPlugin
 {
-    private GraphQlConfigInterface $graphQlConfig;
+    private $graphQlConfig;
 
     /**
      * @param GraphQlConfigInterface $graphQlConfig
